@@ -33,16 +33,16 @@ if choice_1 == "right":
           if choice_2 == "panda":
                     choice_3 = input("You have reached the Panda Express. There is a red key,  blue key and a yellow key. Which colour do you choose?\n").lower()
                     if choice_3 == "red":
-                              print('"WOMP WOMP" You opened a door to a ferocious panda cage. Game Over!')
+                              print('"OH NO!" You opened a door to a ferocious panda cage. Game Over!')
                     elif choice_3 == "blue":
                               print("You found the exit door! You Win!")
                     elif choice_3 == "yellow":
-                              print ('"WOMP WOMP" You entered dishwashing room, now do the dishes. Game Over!')
+                              print ('"OH NO!" You entered dishwashing room, now do the dishes. Game Over!')
                               
                     
                     else:
                               print("You chose a door that doesn't exist. Game Over.")
           else:
-                    print ('"WOMP WOMP" You just ate sandwich and died. Game Over')
+                    print ('"OH NO!" You just ate sandwich and died. Game Over')
 else:
-          print ('"WOMP WOMP" You fell into the sewers canal. Game Over!')
+          print ('"OH NO!" You fell into the sewers canal. Game Over!')
